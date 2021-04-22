@@ -50,6 +50,8 @@ h4{
     color: rgb(214, 214, 214);
 }
 .apply #btn{
+    position: relative;
+    left: 20px;
     width: 170px;
     height: 5vh;
     border-radius: 25px;
@@ -84,6 +86,8 @@ h4{
         color: rgb(214, 214, 214);
     }
     .apply #btn{
+        position: relative;
+        left: 0px;
         width: 300px;
         height: 5vh;
         border-radius: 25px;
@@ -92,7 +96,6 @@ h4{
         background: linear-gradient(to right, rgb(86, 166, 241), rgb(41, 113, 196));
         color: #fff;
     }
-
 }
 @media screen and (max-width: 424px){
     h1{
